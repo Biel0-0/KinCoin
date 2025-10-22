@@ -1,10 +1,10 @@
 import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, View } from "react-native";
-import TelaDeCarregamento from "./src/pages/TelaDeCarregamento";
+import TelaInicial from "../src/pages/TelaInicial";
 
 export default function App() {
   return (
-    <TelaDeCarregamento></TelaDeCarregamento>
+      <TelaInicial></TelaInicial>
   );
 }
 
