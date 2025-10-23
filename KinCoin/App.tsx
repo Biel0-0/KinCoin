@@ -1,10 +1,10 @@
 import { StatusBar } from "expo-status-bar";
-import { StyleSheet, Text, View } from "react-native";
-import TelaDeCarregamento from "./src/pages/TelaDeCarregamento";
+import { StyleSheet } from "react-native";
+import TelaPerfil from "../KinCoin/src/pages/TelaPerfil";
 
 export default function App() {
   return (
-    <TelaDeCarregamento></TelaDeCarregamento>
+    <TelaPerfil></TelaPerfil>
   );
 }
 
