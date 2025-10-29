@@ -1,12 +1,10 @@
 import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, View } from "react-native";
-import TelaInicial from "../src/pages/TelaInicial";
+import TelaInicial from "./src/pages/TelaCadastro";
+import TelaCadastro from "./src/pages/TelaCadastro";
 
 export default function App() {
-  return (
-      <TelaInicial></TelaInicial>
-  );
+  return <TelaCadastro></TelaCadastro>;
 }
 
-const styles = StyleSheet.create({
-});
+const styles = StyleSheet.create({});
